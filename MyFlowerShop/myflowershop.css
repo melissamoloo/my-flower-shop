@@ -1,0 +1,95 @@
+nav {
+  height: 50px;
+  background-color: pink;
+}
+
+#logo {
+  height: 100px;
+}
+
+ul {
+  list-style-type: none;
+  /*gets rid of bullets */
+  margin: 0;
+  padding: 15px;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+}
+
+li {
+  display: inline;
+  /* makes list horizontal */
+ float: right;
+
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#start {
+  background-color: white;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  /* this brings it to the center */
+}
+
+.intro-section {
+  height: 400px;
+  padding: 20px;
+  background-image: url(https://st2.depositphotos.com/4315753/8855/i/950/depositphotos_88557614-stock-photo-blooming-sakura-on-the-blurred.jpg);
+}
+
+.shop {
+  height: 1500px;
+  background-color: pink;
+  padding: 20px;
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-container {
+  margin: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+    /* The space-around value displays the flex lines with space before, between, and after them: */
+}
+
+.flex-container2 {
+  margin: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+    /* The space-around value displays the flex lines with space before, between, and after them: */
+}
+
+li:hover {
+  background-color: white;
+}
+
+#redrose:hover, #pinkroses:hover, #pinkmix:hover, #whiteroses:hover, 
+#yellowroses:hover, #orangeroses:hover, #mixedroses:hover, #pastelroses:hover, #blueroses:hover {
+  background-color: white;
+}
+
+footer {
+  height: 30px;
+  background-color:white;
+  float: right;
+  padding: 15px;
+  font-size: 22px;
+  font-family: 'Solway', serif;
+}
